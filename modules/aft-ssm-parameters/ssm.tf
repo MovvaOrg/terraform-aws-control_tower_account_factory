@@ -423,7 +423,6 @@ resource "aws_ssm_parameter" "aft_metrics_reporting" {
 }
 
 resource "random_uuid" "metrics_reporting_uuid" {
-  overwrite = true
 }
 
 resource "aws_ssm_parameter" "aft_metrics_reporting_uuid" {
